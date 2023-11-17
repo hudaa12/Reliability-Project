@@ -6,7 +6,7 @@ Our team was engaged by an organization providing software and services to multi
 
 The HOSP System Regrettably, due to licensing issues, access to the source code was unavailable. However, we had access to the AWS load balancer and API documentation.
 
-![Getting Started](./HOSP server.png)
+(./HOSP server.png)
 
 Approach and Investigation 
 Our initial focus centered on bolstering the system's reliability. Using Amazon CloudWatch, we analyzed application logs to address user-reported issues. This investigation revealed a significant number of failed API requests at server endpoints, providing crucial insights into the root causes of user problems.

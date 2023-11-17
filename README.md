@@ -1,8 +1,12 @@
                                             Reliability Project
-This repository encompasses the documentation for my final project at Makers Academy within the Cloud/DevOps Engineering specialization track.
 
-Project Overview 
+This repository encompasses the documentation for my final project at Makers Academy within the Cloud/DevOps Engineering specialization track.
+----------------------------------------------------------------------------------------------------------------------------------
+Project Overview
+
 Our team was engaged by an organization providing software and services to multiple veterinary hospitals. The primary objective was to improve the reliability of their existing application, HOSP, while preserving its core functionality. Additionally, we took on the responsibility of implementing enhancements and introducing new features to enhance the overall user experience.
+
+The HOSP system
 
 The HOSP System Regrettably, due to licensing issues, access to the source code was unavailable. However, we had access to the AWS load balancer and API documentation.
 

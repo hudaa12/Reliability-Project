@@ -34,3 +34,4 @@ These improvements collectively elevated the system's functionality, user experi
 
 image.png
 
+(final diagram)

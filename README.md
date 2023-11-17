@@ -1,5 +1,5 @@
 
-                                                Reliability Project 
+Reliability Project 
 ----------------------------------------------------------------------------------------------------------------------------------
 This repository encompasses the documentation for my final project at Makers Academy within the Cloud/DevOps Engineering specialization track.
 

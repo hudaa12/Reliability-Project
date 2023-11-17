@@ -15,8 +15,8 @@ Our initial focus centered on bolstering the system's reliability. Using Amazon 
 NGINX Reverse Proxy Server Implementation 
 To address failed API requests, we deployed an NGINX reverse proxy server on an AWS EC2 instance. This strategic deployment automatically retried failed requests, resulting in a notable reduction in overall failures. This solution enhanced the system's resilience and ensured a smoother user experience.
 
+![Implementation of NGINX Reverse Proxy Server](https://github.com/hudaa12/Reliability-Project/assets/133902313/c370108d-e195-46ad-acad-99d121b45d2d)
 
-Implementation of NGINX Reverse Proxy Server.png
 
 Implemented Improvements 
 With improved reliability, our attention shifted to implementing key enhancements:
@@ -27,8 +27,8 @@ With improved reliability, our attention shifted to implementing key enhancement
 
 3. Audit Trail Functionality: To enhance system transparency and security, we implemented an audit trail feature using an AWS Lambda function. This feature allowed administrators to track and monitor all user activities, facilitating the prompt identification of potential security breaches. The audit trail utilized AWS Athena and CloudWatch to query user interactions and provide results as a downloadable CSV file.
 
-improvements diagram.png
+![improvements diagram](https://github.com/hudaa12/Reliability-Project/assets/133902313/041a11cf-c25a-429d-893c-15e94bf94b28)
 
 These improvements collectively elevated the system's functionality, user experience, and security standards. Leveraging serverless technology enhanced scalability and significantly reduced operational overheads, providing hospital staff and patients with a consistently reliable, high-performing system for uninterrupted focus on core tasks.
 
-final system diagram.png
+![final system diagram](https://github.com/hudaa12/Reliability-Project/assets/133902313/1500ce80-7054-4245-90ee-7a774430a2dd)

@@ -34,4 +34,5 @@ With improved reliability, our attention shifted to implementing key enhancement
 
 These improvements collectively elevated the system's functionality, user experience, and security standards. Leveraging serverless technology enhanced scalability and significantly reduced operational overheads, providing hospital staff and patients with a consistently reliable, high-performing system for uninterrupted focus on core tasks.
 
+Final system diagram
 ![final system diagram](https://github.com/hudaa12/Reliability-Project/assets/133902313/1500ce80-7054-4245-90ee-7a774430a2dd)

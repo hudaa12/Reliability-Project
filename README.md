@@ -1,31 +1,33 @@
-                                            Reliability Project
 
-This repository encompasses the documentation for my final project at Makers Academy within the Cloud/DevOps Engineering specialization track.
+Reliability Project 
 ----------------------------------------------------------------------------------------------------------------------------------
-Project Overview
+This repository encompasses the documentation for my final project at Makers Academy within the Cloud/DevOps Engineering specialization track.
 
-Our team was engaged by an organization providing software and services to multiple veterinary hospitals. The primary objective was to improve the reliability of their existing application, HOSP, while preserving its core functionality. Additionally, we took on the responsibility of implementing enhancements and introducing new features to enhance the overall user experience.
+Project Overview
+----------------------------------------------------------------------------------------------------------------------------------
+Our team was engaged by an organization providing software and services to multiple veterinary hospitals. The primary objective was to improve the reliability of their existing application, HOSP, while preserving its core functionality. Additionally, we took on the responsibility of implementing improvements and introducing new features to enhance the overall user experience.
 
 The HOSP system
-
+----------------------------------------------------------------------------------------------------------------------------------
 The HOSP System Regrettably, due to licensing issues, access to the source code was unavailable. However, we had access to the AWS load balancer and API documentation.
 
 ![HOSP server](https://github.com/hudaa12/Reliability-Project/assets/133902313/31f72284-dc0c-47f3-87c8-5b1cc90d668d)
 
 
 Approach and Investigation 
+----------------------------------------------------------------------------------------------------------------------------------
 
 Our initial focus centered on bolstering the system's reliability. Using Amazon CloudWatch, we analyzed application logs to address user-reported issues. This investigation revealed a significant number of failed API requests at server endpoints, providing crucial insights into the root causes of user problems.
 
 NGINX Reverse Proxy Server Implementation
-
+----------------------------------------------------------------------------------------------------------------------------------
 To address failed API requests, we deployed an NGINX reverse proxy server on an AWS EC2 instance. This strategic deployment automatically retried failed requests, resulting in a notable reduction in overall failures. This solution enhanced the system's resilience and ensured a smoother user experience.
 
 ![Implementation of NGINX Reverse Proxy Server](https://github.com/hudaa12/Reliability-Project/assets/133902313/c370108d-e195-46ad-acad-99d121b45d2d)
 
 
 Implemented Improvements
-
+----------------------------------------------------------------------------------------------------------------------------------
 With improved reliability, our attention shifted to implementing key enhancements:
 
 1. Enhanced Security with HTTPS: We prioritized implementing the HTTPS protocol for increased system security. This involved deploying an AWS CloudFront CDN and enforcing encrypted communication across all traffic. The transition to HTTPS significantly enhanced data privacy and secured sensitive information exchanged within the system.
@@ -38,5 +40,7 @@ With improved reliability, our attention shifted to implementing key enhancement
 
 These improvements collectively elevated the system's functionality, user experience, and security standards. Leveraging serverless technology enhanced scalability and significantly reduced operational overheads, providing hospital staff and patients with a consistently reliable, high-performing system for uninterrupted focus on core tasks.
 
+
 Final system diagram
+----------------------------------------------------------------------------------------------------------------------------------
 ![final system diagram](https://github.com/hudaa12/Reliability-Project/assets/133902313/1500ce80-7054-4245-90ee-7a774430a2dd)

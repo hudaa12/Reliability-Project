@@ -6,7 +6,8 @@ Our team was engaged by an organization providing software and services to multi
 
 The HOSP System Regrettably, due to licensing issues, access to the source code was unavailable. However, we had access to the AWS load balancer and API documentation.
 
-(./HOSP server.png)
+![HOSP server](https://github.com/hudaa12/Reliability-Project/assets/133902313/31f72284-dc0c-47f3-87c8-5b1cc90d668d)
+
 
 Approach and Investigation 
 Our initial focus centered on bolstering the system's reliability. Using Amazon CloudWatch, we analyzed application logs to address user-reported issues. This investigation revealed a significant number of failed API requests at server endpoints, providing crucial insights into the root causes of user problems.

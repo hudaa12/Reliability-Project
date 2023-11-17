@@ -10,15 +10,18 @@ The HOSP System Regrettably, due to licensing issues, access to the source code 
 
 
 Approach and Investigation 
+
 Our initial focus centered on bolstering the system's reliability. Using Amazon CloudWatch, we analyzed application logs to address user-reported issues. This investigation revealed a significant number of failed API requests at server endpoints, providing crucial insights into the root causes of user problems.
 
-NGINX Reverse Proxy Server Implementation 
+NGINX Reverse Proxy Server Implementation
+
 To address failed API requests, we deployed an NGINX reverse proxy server on an AWS EC2 instance. This strategic deployment automatically retried failed requests, resulting in a notable reduction in overall failures. This solution enhanced the system's resilience and ensured a smoother user experience.
 
 ![Implementation of NGINX Reverse Proxy Server](https://github.com/hudaa12/Reliability-Project/assets/133902313/c370108d-e195-46ad-acad-99d121b45d2d)
 
 
-Implemented Improvements 
+Implemented Improvements
+
 With improved reliability, our attention shifted to implementing key enhancements:
 
 1. Enhanced Security with HTTPS: We prioritized implementing the HTTPS protocol for increased system security. This involved deploying an AWS CloudFront CDN and enforcing encrypted communication across all traffic. The transition to HTTPS significantly enhanced data privacy and secured sensitive information exchanged within the system.

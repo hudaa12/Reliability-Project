@@ -6,8 +6,7 @@ Our team was engaged by an organization providing software and services to multi
 
 The HOSP System Regrettably, due to licensing issues, access to the source code was unavailable. However, we had access to the AWS load balancer and API documentation.
 
-image.png
-
+HOSP server.png
 
 Approach and Investigation 
 Our initial focus centered on bolstering the system's reliability. Using Amazon CloudWatch, we analyzed application logs to address user-reported issues. This investigation revealed a significant number of failed API requests at server endpoints, providing crucial insights into the root causes of user problems.
@@ -16,7 +15,7 @@ NGINX Reverse Proxy Server Implementation
 To address failed API requests, we deployed an NGINX reverse proxy server on an AWS EC2 instance. This strategic deployment automatically retried failed requests, resulting in a notable reduction in overall failures. This solution enhanced the system's resilience and ensured a smoother user experience.
 
 
-image.png
+Implementation of NGINX Reverse Proxy Server.png
 
 Implemented Improvements 
 With improved reliability, our attention shifted to implementing key enhancements:
@@ -27,11 +26,8 @@ With improved reliability, our attention shifted to implementing key enhancement
 
 3. Audit Trail Functionality: To enhance system transparency and security, we implemented an audit trail feature using an AWS Lambda function. This feature allowed administrators to track and monitor all user activities, facilitating the prompt identification of potential security breaches. The audit trail utilized AWS Athena and CloudWatch to query user interactions and provide results as a downloadable CSV file.
 
-image.png
-
+improvements diagram.png
 
 These improvements collectively elevated the system's functionality, user experience, and security standards. Leveraging serverless technology enhanced scalability and significantly reduced operational overheads, providing hospital staff and patients with a consistently reliable, high-performing system for uninterrupted focus on core tasks.
 
-image.png
-
-(final diagram)
+final system diagram.png
